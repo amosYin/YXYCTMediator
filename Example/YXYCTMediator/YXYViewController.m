@@ -7,7 +7,7 @@
 //
 
 #import "YXYViewController.h"
-
+#import "CTMediator+CTMediatorModuleAActions.h"
 @interface YXYViewController ()
 
 @end

@@ -1,0 +1,6 @@
+framework module YXYCTMediator {
+  umbrella header "YXYCTMediator-umbrella.h"
+
+  export *
+  module * { export * }
+}

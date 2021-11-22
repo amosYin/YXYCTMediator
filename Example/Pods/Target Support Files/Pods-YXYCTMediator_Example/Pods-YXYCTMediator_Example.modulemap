@@ -1,0 +1,6 @@
+framework module Pods_YXYCTMediator_Example {
+  umbrella header "Pods-YXYCTMediator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
