@@ -1,6 +1,6 @@
 {
   "name": "YXYCTMediator",
-  "version": "0.1.0",
+  "version": "0.0.3",
   "summary": "A short description of YXYCTMediator.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/amosYin/YXYCTMediator",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/amosYin/YXYCTMediator.git",
-    "tag": "0.1.0"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "9.0"

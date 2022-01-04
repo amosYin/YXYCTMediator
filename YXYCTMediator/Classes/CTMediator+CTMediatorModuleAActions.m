@@ -20,11 +20,11 @@ NSString * const kCTMediatorActionCell = @"cell";
 NSString * const kCTMediatorActionConfigCell = @"configCell";
 
 @implementation CTMediator (CTMediatorModuleAActions)
-- (UIViewController *)CTMediator_viewControllerForDetail
+- (UIViewController *)CTMediator_viewControllerForDetail:(NSDictionary *)params
 {
     UIViewController *viewController = [self performTarget:self.target
                                                     action:self.actionName
-                                                    params:@{@"key":@"value"}
+                                                    params:params
                                          shouldCacheTarget:NO
                                         ];
     if ([viewController isKindOfClass:[UIViewController class]]) {

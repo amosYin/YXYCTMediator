@@ -14,7 +14,7 @@
 @property (nonatomic, copy) NSString *target;// 类名
 @property (nonatomic, copy) NSString *actionName;// 方法名
 
-- (UIViewController *)CTMediator_viewControllerForDetail;
+- (UIViewController *)CTMediator_viewControllerForDetail:(NSDictionary *)params;
 
 - (void)CTMediator_showAlertWithMessage:(NSString *)message cancelAction:(void(^)(NSDictionary *info))cancelAction confirmAction:(void(^)(NSDictionary *info))confirmAction;
 
