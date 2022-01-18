@@ -1,5 +1,5 @@
 PODS:
-  - YXYCTMediator (0.0.3)
+  - YXYCTMediator (0.0.5)
 
 DEPENDENCIES:
   - YXYCTMediator (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YXYCTMediator: be6ef87362f0f065df31afc74a109d7457ba5f17
+  YXYCTMediator: 80cecb77bc0131a1ac26de06c1385010001045cf
 
 PODFILE CHECKSUM: 8b1fb5ada37bdcac9fe7d5f027656526ef125489
 

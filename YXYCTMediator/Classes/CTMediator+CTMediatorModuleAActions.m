@@ -36,6 +36,21 @@ NSString * const kCTMediatorActionConfigCell = @"configCell";
     }
 }
 
+- (NSObject *)CTMediator_getObjc:(NSDictionary *)params{
+    NSObject *objc = [self performTarget:self.target
+                                                    action:self.actionName
+                                                    params:params
+                                         shouldCacheTarget:NO
+                                        ];
+    if ([objc isKindOfClass:[NSObject class]]) {
+        // view controller 交付出去之后，可以由外界选择是push还是present
+        return objc;
+    } else {
+        // 这里处理异常场景，具体如何处理取决于产品
+        return [[NSObject alloc] init];
+    }
+}
+
 - (void)CTMediator_presentImage:(UIImage *)image
 {
     if (image) {

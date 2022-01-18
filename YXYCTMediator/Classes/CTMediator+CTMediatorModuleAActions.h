@@ -16,6 +16,8 @@
 
 - (UIViewController *)CTMediator_viewControllerForDetail:(NSDictionary *)params;
 
+- (NSObject *)CTMediator_getObjc:(NSDictionary *)params;
+
 - (void)CTMediator_showAlertWithMessage:(NSString *)message cancelAction:(void(^)(NSDictionary *info))cancelAction confirmAction:(void(^)(NSDictionary *info))confirmAction;
 
 - (void)CTMediator_presentImage:(UIImage *)image;
